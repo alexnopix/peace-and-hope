@@ -910,6 +910,7 @@ h2.post-size {
     width: 46%;
     float: left;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .right-pane {
@@ -931,6 +932,12 @@ h2.post-size {
     font-size: 20px;
     line-height: 1.3em;
     padding-left: 14px;
+}
+
+#facets .facets-header {
+}
+
+.facets-vid {
 }
 /*********  Yellow Pane  *********/
 
