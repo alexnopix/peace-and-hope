@@ -45,6 +45,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
     
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+        margin: 0;
+    }
+    
     html {
         font-family: sans-serif;
         -webkit-text-size-adjust: 100%;
@@ -77,8 +81,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
         background-color: transparent;
         outline: none;
     }
-    
-    
     
     abbr[title] {
         border-bottom: 1px dotted;
@@ -232,10 +234,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
     
     h1, h2, h3, h4, h5, h6 {
         clear: both;
-    }
-    
-    p {
-        margin-bottom: 1.5em;
     }
     
     dfn, cite, em, i {
@@ -400,14 +398,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
         color: #004fa2;
     }
     
-    
     a:active, a:hover, a:focus {
-        outline: none; 
+        outline: none;
     }
     
-
-
-outline: none; 
+    outline: none;
     /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -682,12 +677,12 @@ outline: none;
         line-height: 1.4em;
     }
     
-.wrapper {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-/*  Trying the .clear classed provided
+    .wrapper {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*  Trying the .clear classed provided
 
 .clear-float:after {
 content: "";
@@ -695,38 +690,38 @@ display: block;
 clear: both;
 }
 */
-/*********  Header  *********/
-
-#header {
-    width: 100%;
-    max-height: 140px;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
-
-#logo-h1 {
-    float: left;
-    margin-left: 6%;
-}
-
-#logo {
-    /* ///Moved to dynamic///
+    /*********  Header  *********/
+    
+    #header {
+        width: 100%;
+        max-height: 140px;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    
+    #logo-h1 {
+        float: left;
+        margin-left: 6%;
+    }
+    
+    #logo {
+        /* ///Moved to dynamic///
 background: url(images/logo100px.png) no-repeat;
 */
-    display: block;
-    height: 100px;
-    width: 100px;
-    text-indent: -9999px;
-}
-
-#site-navigation {
-    float: right;
-    margin-top: 55px;
-    margin-right: 6%;
-}
-/*
+        display: block;
+        height: 100px;
+        width: 100px;
+        text-indent: -9999px;
+    }
+    
+    #site-navigation {
+        float: right;
+        margin-top: 55px;
+        margin-right: 6%;
+    }
+    /*
 #topnav a, #burger-nav {
 display: block;
 color: #3d5c5c;
@@ -741,534 +736,521 @@ box-shadow: 0px 10px 16px 0px rgb(20, 31, 31), 0 11px 50px 0 rgb(10, 16, 16);
 color: #b3cccc;
 }
 */
-
-#primary-menu a {
-    display: block;
-    color: #eee;
-    text-decoration: none;
-    font-family: arial;
-    font-size: 26px;
-     padding: 10px;
-    border-radius: 7px;
-    background: #313131;
-    box-shadow: 3px 3px 6px #282828;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    /*text-shadow: -1px -1px 1px #004fa2;
-/*revise color*/
-}
-
-#primary-menu a:hover {
-    color: #ffcd31;
-    /* color: #004fa2; */
-    /* text-shadow: 0px 0px 5px #fff; */
-}
-
-#primary-menu li {
-    float: left;
-    margin-left: 20px;
-    list-style-type: none;
-   
-}
-
-#primary-menu li:hover {
-    box-shadow: 0px 10px 16px 0px #222, 5px 5px 40px 0 #111;
     
-}
-
-#site-navigation h2 {
-    height: 0;
-    margin: 0;
-    text-indent: -9999px;
-}
-
-nav span {
-    color: #ffcd31;
-    margin-left: 20px;
-    font-size: 26px;
-    font-weight: bolder;
-}
-
-#lead-banner {
-    display: block;
-    height: auto;
-}
-
-#lead-banner img {
-    margin-top: 140px;
-    width: 100%;
-    display: block;
-}
-
-#lead-banner h2 {
-    margin: 0;
-    width: 14%;
-    height: 0;
-    position: relative;
-    left: 1%;
-    top: -8vw;
-    color: #004fa2;
-    font-family: caveat;
-    font-size: 1.8vw;
-    line-height: 1;
-}
-
-#lead-banner h2 span {
-    color: #004fa2;
-    font-size: .8em;
-}
-/*********  All main content  *********/
-
-.banner {
-    text-align: center;
-    width: 100%;
-    height: 178px;
-    margin: 10px 0px;
-}
-
-.banner h2 {
-    padding-top: 30px;
-    text-align: center;
-    font-family: caveat;
-    font-weight: bold;
-    font-size: 100px;
-}
-
-h2.post-size {
-    font-size: 60px;
-}
-
-.entry-content h2 {
-    font-size: 1.7em;
-    margin-bottom: 16px;
-}
-/*********  Front page styles  *********/
-
-#front-page-panel p {
-    padding: 30px;
-    font-size: 2.4em;
-}
-/*********  Blue Pane  *********/
-
-.blue-pane {
-    background-color: #004fa2;
-    padding: 20px 20px;
-    color: #eee;
-    margin: 0;
-}
-
-.blue-pane img {
-    margin: 16px 16px;
-}
-
-.yellow-banner {
-    background: url(images/yellow-banner.png) no-repeat;
-    background-size: contain;
-}
-
-.yellow-banner h2 {
-    color: #004fa2;
-}
-
-.blue-pane p {
-    padding: 10px;
-    font-size: 1.6em;
-}
-
-#three-girls {
-    float: left;
-    width: 50%;
-}
-
-#map {
-    float: right;
-    width: 50%;
-}
-/*********  Mid Section (Map)  *********/
-
-#facets {
-    background: url(images/background-map.jpg) no-repeat;
-    background-size: cover;
-    padding-top: 20px;
-}
-
-#facets h2 {
-    text-align: left;
-    padding: 40px;
-    color: #004fa2;
-    font-size: 40px;
-    font-weight: normal;
-}
-
-#facets h2 strong {
-    color: inherit;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.left-pane {
-    width: 46%;
-    float: left;
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.right-pane {
-    width: 46%;
-    float: right;
-    padding-bottom: 20px;
-}
-
-.facets-row {
-    clear: both;
-}
-
-#facets img {
-    width: 100%;
-}
-
-#facets p {
-    color: #004fa2;
-    font-size: 20px;
-    line-height: 1.3em;
-    padding-left: 14px;
-}
-
-#facets .facets-header {
-}
-
-.facets-vid {
-}
-/*********  Yellow Pane  *********/
-
-.yellow-pane {
-    background-color: #ffcd31;
-    padding: 20px 20px;
-}
-
-.blue-banner {
-    background: url(images/blue-banner.png) no-repeat;
-    background-size: contain;
-}
-
-.blue-banner h2 {
-    color: #ffcd31;
-}
-
-.yellow-pane p {
-    padding: 10px;
-    color: #004fa2;
-}
-
-.yellow-pane strong {
-    color: #004fa2;
-}
-
-h2.blue-entry-title {
-    color: #004fa2;
-    font-family: caveat;
-    font-size: 40px;
-    text-align: center;
-}
-
-.search-entry-title a {
-    color: #ffcd31;
-}
-
-.author a,
-.posted-on a {
-    color: #eee;
-}
-
-#contact {
-    float: left;
-    padding: 10px;
-}
-
-#contact li {
-    text-align: left;
-    list-style-type: none;
-    font-size: 24px;
-    line-height: 1.4em;
-    color: #004fa2;
-}
-
-#contact li a {
-    color: #004fa2;
-    text-decoration: none;
-    margin: 0;
-}
-
-#address {
-    float: right;
-    text-align: left;
-    width: 260px;
-}
-
-#address p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#thank-you {
-    text-align: center;
-    padding: 10px;
-    color: #004fa2;
-    font-family: caveat;
-    font-weight: bold;
-    font-size: 40px;
-    margin: 0;
-}
-
-footer {
-    text-align: center;
-    padding-bottom: 30px;
-    color: #004fa2;
-}
-
-
-
-.fa-style {
-    display: inline-block;
-    color: #004fa2;
-    width: 24px;
-    height: 24px;
-    margin-right: 10px
-}
-
-.clear-header {
-    margin-top: 140px;
-}
-/*  Fix top admin bar with fixed  */
-
-.admin-bar #header {
-    top: 32px;
-}
-/*  Wordpress */
-
-.page-header h1.page-title {
-    color: #ffcd31;
-    background-color: #004fa2;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-}
-
-.post-left {
-    float: left;
-    width: 76%;
-    margin-right: 2%;
-}
-
-.sidebar-right {
-    float: right;
-    width: 22%;
-    padding: 10px;
-}
-
-.sidebar-right {
-    background: #ffcd31;
-    padding: 12px;
-    margin: 30px 0;
-}
-
-.sidebar-right a,
-.sidebar-right li,
-.sidebar-right a:visited,
-.sidebar-right abbr{
-    color: #004fa2;
-    text-decoration: none;
-    margin-bottom: 20px;
-    
-}
-
-.search-submit {
-    margin-top: 12px;
-    background: #004fa2;
-}
-
-h2.widget-title {
-    color: #004fa2;
-}
-
-.post-left .blue-pane,
-.post-left .yellow-pane {
-    margin: 30px 0;
-}
-
-.page-header {
-    margin-top: 30px;
-}
-
-/* End Wordpress */
-    
-@media screen and (max-width: 782px) {
-    .admin-bar #header {
-        top: 46px;
-    }
-}
-    /*  Media Queries  */
-    
-@media screen and (max-width: 1200px) {
-    .banner {
-        height: 14.6vw;
-        margin: 0 auto;
-    }
-    .banner h2 {
-        padding-top: 3vw;
-        font-size: 8vw;
-    }
-    h2.post-size {
-        font-size: 4.8vw;
-    }
-    #lead-banner h2 {
-        width: 19%;
-        top: -10vw;
-        font-size: 2.4vw;
-        line-height: 1;
-    }
-    #blue-pane p {
-        font-size: 3.0vw;
-    }
-}
-    
-@media screen and (max-width: 1100px) {
-    header nav a {
-        font-size: 2.4vw;
-    }
-    nav span {
-        font-size: 2.4vw;
-    }
-    #logo {
-        margin-left: 5%;
-    }
-    header nav {
-        margin-right: 5%;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    #blue-pane p {
-        padding: 20px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #lead-banner h2 {
-        width: 24%;
-        top: -14vw;
-        font-size: 3.2vw;
-    }
-    #blue-pane p {
-        padding: 15px;
-    }
-    #qr-code {
-        display: none;
-    }
-}
-    
-@media screen and (max-width: 700px) {
-    /*  Change to burger nav  */
-    #logo {
-        display: none;
-    }
-    nav span {
-        display: none;
-    }
-    header nav li {
-        float: right;
-        width: 100%;
-    }
-    #lead-banner img {
-        margin-top: 115px;
-    }
-    header nav {
-        width: 100%;
-        background: #555;
-        margin-right: 0;
-    }
-    header nav li a {
+    #primary-menu a {
         display: block;
-        text-align: center;
-        padding: 10px;
-        color: #999;
-        border-top: 4px solid #333;
+        color: #eee;
+        text-decoration: none;
+        font-family: arial;
         font-size: 26px;
+        padding: 10px;
+        border-radius: 7px;
+        background: #313131;
+        box-shadow: 3px 3px 6px #282828;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        /*text-shadow: -1px -1px 1px #004fa2;
+/*revise color*/
     }
-    #burger-nav {
-        height: 60px;
-        background: url(images/burger-nav.png) no-repeat center;
-        background-size: 60px 60px;
-        cursor: pointer;
+    
+    #primary-menu a:hover {
+        color: #ffcd31;
+        /* color: #004fa2; */
+        /* text-shadow: 0px 0px 5px #fff; */
     }
-    header nav ul {
+    
+    #primary-menu li {
+        float: left;
+        margin-left: 20px;
+        list-style-type: none;
+    }
+    
+    #primary-menu li:hover {
+        box-shadow: 0px 10px 16px 0px #222, 5px 5px 40px 0 #111;
+    }
+    
+    #site-navigation h2 {
         height: 0;
-        overflow: hidden;
+        margin: 0;
+        text-indent: -9999px;
     }
-    header nav ul.open {
+    
+    nav span {
+        color: #ffcd31;
+        margin-left: 20px;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+    
+    #lead-banner {
+        display: block;
         height: auto;
     }
-    /*  Facets to single column  */
-    #facets h2 {
+    
+    #lead-banner img {
+        margin-top: 140px;
+        width: 100%;
+        display: block;
+    }
+    
+    #lead-banner h2 {
+        margin: 0;
+        width: 14%;
+        height: 0;
+        position: relative;
+        left: 1%;
+        top: -8vw;
+        color: #004fa2;
+        font-family: caveat;
+        font-size: 1.8vw;
+        line-height: 1;
+    }
+    
+    #lead-banner h2 span {
+        color: #004fa2;
+        font-size: .8em;
+    }
+    /*********  All main content  *********/
+    
+    .banner {
+        text-align: center;
+        width: 100%;
+        height: 178px;
+        margin: 10px 0px;
+    }
+    
+    .banner h2 {
+        padding-top: 30px;
+        text-align: center;
+        font-family: caveat;
+        font-weight: bold;
+        font-size: 100px;
+    }
+    
+    h2.post-size {
+        font-size: 60px;
+    }
+    
+    .entry-content h2 {
+        font-size: 1.7em;
+        margin-bottom: 16px;
+    }
+    /*********  Front page styles  *********/
+    
+    #front-page-panel p {
         padding: 30px;
-        font-size: 30px;
+        font-size: 2.4em;
     }
+    /*********  Blue Pane  *********/
+    
+    .blue-pane {
+        background-color: #004fa2;
+        padding: 20px 20px;
+        color: #eee;
+        margin: 0;
+    }
+    
+    .blue-pane img {
+        margin: 16px 16px;
+    }
+    
+    .yellow-banner {
+        background: url(images/yellow-banner.png) no-repeat;
+        background-size: contain;
+    }
+    
+    .yellow-banner h2 {
+        color: #004fa2;
+    }
+    
+    .blue-pane p {
+        padding: 10px;
+        font-size: 1.6em;
+    }
+    
+    #three-girls {
+        float: left;
+        width: 50%;
+    }
+    
+    #map {
+        float: right;
+        width: 50%;
+    }
+    /*********  Mid Section (Map)  *********/
+    
+    #facets {
+        background: url(images/background-map.jpg) no-repeat;
+        background-size: cover;
+        padding-top: 20px;
+    }
+    
+    #facets h2 {
+        text-align: left;
+        padding: 30px;
+        color: #004fa2;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    
     #facets h2 strong {
-        font-size: 30px;
+        color: inherit;
+        font-size: 40px;
+        font-weight: bold;
     }
+    
     .left-pane {
-        width: 92%;
-        float: none;
+        width: 46%;
+        float: left;
         padding-bottom: 20px;
-        margin: 0 auto;
+        position: relative;
     }
+    
     .right-pane {
-        width: 92%;
-        float: none;
+        width: 46%;
+        float: right;
         padding-bottom: 20px;
-        margin: 0 auto;
     }
+    
     .facets-row {
         clear: both;
     }
+    
     #facets img {
         width: 100%;
     }
+    
     #facets p {
         color: #004fa2;
         font-size: 20px;
         line-height: 1.3em;
         padding-left: 14px;
     }
-}
     
-@media screen and (max-width: 600px) {
-    #lead-banner h2 {
-        width: 26%;
-        top: -16vw;
-        font-size: 3.6vw;
+    #facets .facets-header {}
+    
+    .facets-vid {}
+    /*********  Yellow Pane  *********/
+    
+    .yellow-pane {
+        background-color: #ffcd31;
+        padding: 20px 20px;
     }
-    #three-girls {
-        float: none;
-        width: 100%;
+    
+    .blue-banner {
+        background: url(images/blue-banner.png) no-repeat;
+        background-size: contain;
     }
-    #map {
-        float: none;
-        width: 100%;
+    
+    .blue-banner h2 {
+        color: #ffcd31;
     }
-    #blue-pane p {
+    
+    .yellow-pane p {
         padding: 10px;
-        font-size: 1.4em;
+        color: #004fa2;
     }
-    @media screen and (max-width: 450px) {
-        #contact li {
-            font-size: 5.0vw;
+    
+    .yellow-pane strong {
+        color: #004fa2;
+    }
+    
+    h2.blue-entry-title {
+        color: #004fa2;
+        font-family: caveat;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .search-entry-title a {
+        color: #ffcd31;
+    }
+    
+    .author a, .posted-on a {
+        color: #eee;
+    }
+    
+    #contact {
+        float: left;
+        padding: 10px;
+    }
+    
+    #contact li {
+        text-align: left;
+        list-style-type: none;
+        font-size: 24px;
+        line-height: 1.4em;
+        color: #004fa2;
+    }
+    
+    #contact li a {
+        color: #004fa2;
+        text-decoration: none;
+        margin: 0;
+    }
+    
+    #address {
+        float: right;
+        text-align: left;
+        width: 260px;
+    }
+    
+    #address p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #thank-you {
+        text-align: center;
+        padding: 10px;
+        color: #004fa2;
+        font-family: caveat;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    footer {
+        text-align: center;
+        padding-bottom: 30px;
+        color: #004fa2;
+    }
+    
+    .fa-style {
+        display: inline-block;
+        color: #004fa2;
+        width: 24px;
+        height: 24px;
+        margin-right: 10px
+    }
+    
+    .clear-header {
+        margin-top: 140px;
+    }
+    /*  Fix top admin bar with fixed  */
+    
+    .admin-bar #header {
+        top: 32px;
+    }
+    /*  Wordpress */
+    
+    .page-header h1.page-title {
+        color: #ffcd31;
+        background-color: #004fa2;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .post-left {
+        float: left;
+        width: 76%;
+        margin-right: 2%;
+    }
+    
+    .sidebar-right {
+        float: right;
+        width: 22%;
+        padding: 10px;
+    }
+    
+    .sidebar-right {
+        background: #ffcd31;
+        padding: 12px;
+        margin: 30px 0;
+    }
+    
+    .sidebar-right a, .sidebar-right li, .sidebar-right a:visited, .sidebar-right abbr {
+        color: #004fa2;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    
+    .search-submit {
+        margin-top: 12px;
+        background: #004fa2;
+    }
+    
+    h2.widget-title {
+        color: #004fa2;
+    }
+    
+    .post-left .blue-pane, .post-left .yellow-pane {
+        margin: 30px 0;
+    }
+    
+    .page-header {
+        margin-top: 30px;
+    }
+    /* End Wordpress */
+    
+    @media screen and (max-width: 782px) {
+        .admin-bar #header {
+            top: 46px;
         }
     }
-@media screen and (max-width: 400px) {
-    #lead-banner h2 {
-        width: 28%;
-        top: -18vw;
-        font-size: 4.0vw;
+    /*  Media Queries  */
+    
+    @media screen and (max-width: 1200px) {
+        .banner {
+            height: 14.6vw;
+            margin: 0 auto;
+        }
+        .banner h2 {
+            padding-top: 3vw;
+            font-size: 8vw;
+        }
+        h2.post-size {
+            font-size: 4.8vw;
+        }
+        #lead-banner h2 {
+            width: 19%;
+            top: -10vw;
+            font-size: 2.4vw;
+            line-height: 1;
+        }
+        #blue-pane p {
+            font-size: 3.0vw;
+        }
     }
-}
+    
+    @media screen and (max-width: 1100px) {
+        header nav a {
+            font-size: 2.4vw;
+        }
+        nav span {
+            font-size: 2.4vw;
+        }
+        #logo {
+            margin-left: 5%;
+        }
+        header nav {
+            margin-right: 5%;
+        }
+    }
+    
+    @media screen and (max-width: 1100px) {
+        #blue-pane p {
+            padding: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        #lead-banner h2 {
+            width: 24%;
+            top: -14vw;
+            font-size: 3.2vw;
+        }
+        #blue-pane p {
+            padding: 15px;
+        }
+        #qr-code {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        /*  Change to burger nav  */
+        #logo {
+            display: none;
+        }
+        nav span {
+            display: none;
+        }
+        header nav li {
+            float: right;
+            width: 100%;
+        }
+        #lead-banner img {
+            margin-top: 115px;
+        }
+        header nav {
+            width: 100%;
+            background: #555;
+            margin-right: 0;
+        }
+        header nav li a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            color: #999;
+            border-top: 4px solid #333;
+            font-size: 26px;
+        }
+        #burger-nav {
+            height: 60px;
+            background: url(images/burger-nav.png) no-repeat center;
+            background-size: 60px 60px;
+            cursor: pointer;
+        }
+        header nav ul {
+            height: 0;
+            overflow: hidden;
+        }
+        header nav ul.open {
+            height: auto;
+        }
+        /*  Facets to single column  */
+        #facets h2 {
+            padding: 30px;
+            font-size: 30px;
+        }
+        #facets h2 strong {
+            font-size: 30px;
+        }
+        .left-pane {
+            width: 92%;
+            float: none;
+            padding-bottom: 20px;
+            margin: 0 auto;
+        }
+        .right-pane {
+            width: 92%;
+            float: none;
+            padding-bottom: 20px;
+            margin: 0 auto;
+        }
+        .facets-row {
+            clear: both;
+        }
+        #facets img {
+            width: 100%;
+        }
+        #facets p {
+            color: #004fa2;
+            font-size: 20px;
+            line-height: 1.3em;
+            padding-left: 14px;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        #lead-banner h2 {
+            width: 26%;
+            top: -16vw;
+            font-size: 3.6vw;
+        }
+        #three-girls {
+            float: none;
+            width: 100%;
+        }
+        #map {
+            float: none;
+            width: 100%;
+        }
+        #blue-pane p {
+            padding: 10px;
+            font-size: 1.4em;
+        }
+        @media screen and (max-width: 450px) {
+            #contact li {
+                font-size: 5.0vw;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            #lead-banner h2 {
+                width: 28%;
+                top: -18vw;
+                font-size: 4.0vw;
+            }
+        }
