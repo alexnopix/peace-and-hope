@@ -32,24 +32,26 @@ get_header(); ?>
                     <h2><strong>Education and health</strong> are our main priorities, but there are many facets to our work</h2>
                     <div class="facets-row">
                         <div class="left-pane">
-                            <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/humanitarian-header.png" alt="community"></a>
+                            <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/humanitarian-header.png" alt="humanitarian aid"></a>
                             <p>Our global recycling program collects surplus equipment and ships it to Nicaragua several times a year, where it is greatly valued. Priorities are medical equipment and supplies for hospitals and clinics, school furniture and vocational equipment. <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/">Read more...</a></p>
                             <iframe class="facets-vid" src="https://player.vimeo.com/video/246787192?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
                         </div>
                         <div class="right-pane">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/community-header-and-pic.png" alt="community">
-                            <p>We support vocational centres and community projects. Volunteers share their love and their talents by working with local churches, woman’s and children’s groups to teach vocational skills or help with feeding programmes.</p>
+                            <a href="http://peaceandhope.gallowayweb.design/community-building/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/community-header.png" alt="community building"></a>
+                            <p>We support vocational centres and community projects. Volunteers share their love and their talents by working with local churches, woman’s and children’s groups to teach vocational skills or help with feeding programmes. <a href="http://peaceandhope.gallowayweb.design/community-building/">Read more...</a></p>
+                            <iframe src="https://player.vimeo.com/video/246787084?color=ff9933&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="facets-row">
                         <div class="left-pane">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/medical-header-and-pic.png" alt="medical teams">
-                            <p>Working in remote and impoverished communities where very little medical care is available, volunteer dentist and medical professionals relieve acute pain and support local services.</p>
+                            <a href="http://peaceandhope.gallowayweb.design/medical-and-dental-teams/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/medical-header.png" alt="medical and dental"></a>
+                            <p>Working in remote and impoverished communities where very little medical care is available, volunteer dentist and medical professionals relieve acute pain and support local services. <a href="http://peaceandhope.gallowayweb.design/medical-and-dental-teams/">Read more...</a></p>
+                            <iframe src="https://player.vimeo.com/video/246786908?color=ff9933&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                         <div class="right-pane">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/construction-header-and-pic.png" alt="construction">
-                            <p>Our aim is to work with and for the local people to provide communal facilities – schools, clinics, vocational centres, laundries, showers and toilets. Our programme is implemented by teams of volunteers from the UK and around the world.</p>
+                            <a href="http://peaceandhope.gallowayweb.design/construction-projects/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/construction-header.png" alt="construction"></a>
+                            <p>Our aim is to work with and for the local people to provide communal facilities – schools, clinics, vocational centres, laundries, showers and toilets. Our programme is implemented by teams of volunteers from the UK and around the world. <a href="http://peaceandhope.gallowayweb.design/construction-projects/">Read more...</a></p>
+                            <iframe src="https://player.vimeo.com/video/246786825?color=ff9933&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
