@@ -1118,6 +1118,14 @@ color: #b3cccc;
             top: 46px;
         }
     }
+
+    /*  Posts  */
+    
+    .entry-content li {
+        list-style-type: disc;
+    }
+
+
     /*  Media Queries  */
 
     @media screen and (max-width: 1200px) {

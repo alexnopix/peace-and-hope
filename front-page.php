@@ -25,6 +25,7 @@ get_header(); ?>
                     <p>We are a UK based charity with a Christian ethos. We have been working amongst poor and marginalised communities in Nicaragua since 1996.</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="map" id="map2">
                     <p>Since then, many volunteers have caught the same vision to help a country that is regularly affected by natural disasters, hurricanes, earthquakes, volcanic eruptions, floods and landslides and remains one of the neediest in the world.</p>
+                    <p>*** Under construction. For an update, please click on 'News' ***</p>
                 </div>
             </section>
             <section id="facets" class="clear">
