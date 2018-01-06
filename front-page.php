@@ -29,7 +29,7 @@ get_header(); ?>
             </section>
             <section id="facets" class="clear">
                 <div class="wrapper">
-                    <h2><strong>Education and health</strong> are our main priorities, but there are many facets to our work</h2>
+                    <h2><strong>Education and health</strong> are our main priorities, but there are many facets to our work.</h2>
                     <div class="facets-row">
                         <div class="left-pane">
                             <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/humanitarian-header.png" alt="humanitarian aid"></a>
@@ -54,6 +54,18 @@ get_header(); ?>
                             <iframe class="facets-vid" src="https://player.vimeo.com/video/246786825?color=ff9933&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section id="how-to-help" class="blue-pane">
+                <div class="wrapper clear">
+                    <div class="banner yellow-banner">
+                        <h2>How You Can Help</h2>
+                    </div>
+                    <p class="sect-intro"><strong>There are many ways you can help</strong> to make a difference in the lives of some of the poorest people in the world. Here are just a few...</p>
+                    <p class="sect-intro"><strong>*** This section is under construction. ***</strong></p>
+                    <p class="sect-intro"><strong>Donate section with styled donate button.</strong></p>
+                    <p class="sect-intro"><strong>Help at Home section with link to page.</strong></p>
+                    <p class="sect-intro"><strong>Volunteer abroad section with link to page.</strong></p>
                 </div>
             </section>
 

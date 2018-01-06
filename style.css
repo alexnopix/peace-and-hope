@@ -769,6 +769,18 @@ color: #b3cccc;
         box-shadow: 0px 10px 16px 0px #222, 5px 5px 40px 0 #111;
     }
 
+    #primary-menu li:last-of-type a {
+        background: darkorange;
+    }
+
+    #primary-menu li:last-of-type a:hover {
+        color: #004fa2;
+    }
+
+    #primary-menu li:last-of-type:hover {
+        box-shadow: 0px 10px 16px 0px #222, 5px 5px 40px 0 #eee;
+    }
+
     #site-navigation h2 {
         height: 0;
         margin: 0;
@@ -931,6 +943,22 @@ color: #b3cccc;
     .facets-vid {
         padding: 0 10px;
     }
+
+/*********  How to help  *********/
+
+    #how-to-help .sect-intro {
+        text-align: left;
+        padding: 30px;
+        font-size: 34px;
+        font-weight: normal;
+    }
+
+    #how-to-help.sect-intro strong {
+        color: inherit;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
     /*********  Yellow Pane  *********/
 
     .yellow-pane {
@@ -1182,7 +1210,7 @@ color: #b3cccc;
     }
 
     @media screen and (max-width: 700px) {
-        /*  Change to burger nav  */
+        /*  Change to burger nav  
         #logo {
             display: none;
         }
@@ -1221,7 +1249,8 @@ color: #b3cccc;
         }
         header nav ul.open {
             height: auto;
-        }
+        } */
+        
         /*  Facets to single column  */
         #facets h2 {
             padding: 30px;
