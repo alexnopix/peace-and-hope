@@ -964,6 +964,7 @@ color: #b3cccc;
     .yellow-pane {
         background-color: #ffcd31;
         padding: 20px 20px;
+        color: #004fa2;
     }
 
     .blue-banner {
@@ -977,7 +978,6 @@ color: #b3cccc;
 
     .yellow-pane p {
         padding: 10px;
-        color: #004fa2;
     }
 
     .yellow-pane strong {
@@ -1092,7 +1092,8 @@ color: #b3cccc;
     .sidebar-right a, .sidebar-right li, .sidebar-right a:visited, .sidebar-right abbr {
         color: #004fa2;
         text-decoration: none;
-        margin-bottom: 20px;
+        margin-bottom: 12px;
+        font-size: 1.2rem;
     }
 
     .search-submit {
@@ -1102,6 +1103,7 @@ color: #b3cccc;
 
     h2.widget-title {
         color: #004fa2;
+        margin-bottom: 10px;
     }
 
     .post-left .blue-pane, .post-left .yellow-pane {
@@ -1120,8 +1122,15 @@ color: #b3cccc;
     }
 
     /*  Posts  */
+
+    .entry-content ul {
+            padding: 10px;
+        margin: 0 0 10px 10px;
+        }
     
     .entry-content li {
+        margin: 0 0 10px 10px;
+        font-size: 1.6em;
         list-style-type: disc;
     }
 
