@@ -1134,6 +1134,13 @@ color: #b3cccc;
         list-style-type: disc;
     }
 
+/*  ToEdit  */
+/*  Quick fix for text size in posts  */
+
+.blue-pane .entry-content, .yellow-pane .entry-content, .blue-pane .entry-content p, .yellow-pane .entry-content p, .blue-pane .entry-content li, .yellow-pane .entry-content li {
+    font-size: 1.2rem;
+}
+
 
     /*  Media Queries  */
 
