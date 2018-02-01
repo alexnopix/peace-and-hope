@@ -64,15 +64,6 @@
             </header>
             <!-- #masthead -->
 
-            <div id="lead-banner" class="clear-header">
-                <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/banner-sun-400v2.jpg" media="(max-width: 400px)">
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/banner-sun-600v2.jpg" media="(max-width: 600px)">
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/banner-sun-800v2.jpg" media="(max-width: 800px)">
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/banner-sun-1200v2.jpg" media="(max-width: 1200px)">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/banner-sun.jpg" alt="lead banner">
-                </picture>
-                <h2>"Sympathy is no substitute for action"<span> - David Livingstone</span></h2>
-            </div>
+            
 
-            <div id="content" class="site-content">
+            <div id="content" class="site-content clear-header">

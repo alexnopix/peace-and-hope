@@ -96,7 +96,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 
     h1 {
         font-size: 2em;
-        margin: 0.67em 0;
     }
 
     mark {
@@ -694,7 +693,7 @@ clear: both;
 
     #header {
         width: 100%;
-        max-height: 140px;
+        max-height: 115px;
         background-color: #333;
         position: fixed;
         top: 0;
@@ -703,7 +702,8 @@ clear: both;
 
     #logo-h1 {
         float: left;
-        margin-left: 6%;
+        margin: 5px 0 10px 0;
+        margin-left: 3%;
     }
 
     #logo {
@@ -718,8 +718,8 @@ background: url(images/logo100px.png) no-repeat;
 
     #site-navigation {
         float: right;
-        margin-top: 55px;
-        margin-right: 6%;
+        margin-top: 32px;
+        margin-right: 3%;
     }
     /*
 #topnav a, #burger-nav {
@@ -800,7 +800,6 @@ color: #b3cccc;
     }
 
     #lead-banner img {
-        margin-top: 140px;
         width: 100%;
         display: block;
     }
@@ -1054,7 +1053,7 @@ color: #b3cccc;
     }
 
     .clear-header {
-        margin-top: 140px;
+        margin-top: 115px;
     }
     /*  Fix top admin bar with fixed  */
 
