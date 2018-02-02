@@ -72,10 +72,15 @@ get_header(); ?>
                         <h2>How You Can Help</h2>
                     </div>
                     <p class="sect-intro"><strong>There are many ways you can help</strong> to make a difference in the lives of some of the poorest people in the world. Here are just a few...</p>
-                    <p class="sect-intro"><strong>*** This section is under construction. ***</strong></p>
-                    <p class="sect-intro"><strong>Donate section with styled donate button.</strong></p>
-                    <p class="sect-intro"><strong>Help at Home section with link to page.</strong></p>
-                    <p class="sect-intro"><strong>Volunteer abroad section with link to page.</strong></p>
+                    <a href="https://www.give.net/20027824"><h3>Donate</h3></a>
+                    <p>One-off gifts, regular donations and legacy gifts are all very welcome. The money you give supports the on-going work of the Trust and provides a lifeline for the poor and isolated people we serve. <a href="https://www.give.net/20027824">Click here to Donate!</a></p>
+                    <p>Also, please consider supporting our work by signing up to Easy Fund Raising. Each time you make a purchase through selected stores, we receive a small donation at no extra cost to you! <a href="https://www.easyfundraising.org.uk/causes/peaceandhope">Click here to sign up.</a></p>
+                    <h3>Volunteer some time</h3>
+                    <p>Help us to source desperately needed equipment to ship to Nicaragua. Volunteers are needed at the warehouse in Linton when it’s time to pack the shipping containers, and we also need people to help out in our charity shop in Ross-On-Wye.</p>
+                    <h3>Pray</h3>
+                    <p>Support our teams and our work in prayer. Sign up to our newsletter and receive regular prayer points covering all our activities.</p>
+                    <h3>Get involved in Nicaragua</h3>
+                    <p>Get your hands dirty! Whatever your age, you could make a valuable contribution as a team member on one of our construction projects in Nicaragua. The Caribbean coast of Nicaragua is particularly lacking in basic infrastructure, so join one of our teams and help build or renovate schools, clinics and vocational centres that will help lift people out of poverty. No specialist building skills are required, though they are useful!</p>
                 </div>
             </section>
 

@@ -947,15 +947,32 @@ color: #b3cccc;
 
     #how-to-help .sect-intro {
         text-align: left;
-        padding: 30px;
-        font-size: 34px;
+        font-size: 2.0rem;
         font-weight: normal;
     }
 
-    #how-to-help.sect-intro strong {
+    #how-to-help , #how-to-help h3 {
+        padding: 10px;
+    }
+
+    #how-to-help h3 {
+        font-size: 2.4rem;
+        color: #ffcd31;
+    }
+
+    #how-to-help .sect-intro strong {
         color: inherit;
-        font-size: 34px;
         font-weight: bold;
+    }
+
+    #how-to-help a{
+        color: #ffcd31;
+        text-decoration: none;
+        
+    }
+
+    #how-to-help a:hover {
+            text-decoration: underline;
     }
 
     /*********  Yellow Pane  *********/
