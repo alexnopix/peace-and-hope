@@ -1104,10 +1104,6 @@ color: #b3cccc;
     .sidebar-right {
         float: right;
         width: 22%;
-        padding: 10px;
-    }
-
-    .sidebar-right {
         background: #ffcd31;
         padding: 12px;
         margin: 30px 0;
@@ -1264,15 +1260,22 @@ color: #b3cccc;
         }
         #qr-code {
             display: none;
-        }
-        
-        figure.alignleft, img.alignleft, figure.alignright, img.alignright {
-            float:none;
-            display: block;
-            margin: 0 auto;
-        }
-        
+        }       
 
+    }
+
+    @media screen and (max-width: 760px) {
+        .post-left {
+            float: none;
+            width: 100%;
+            margin-right: 0;
+        }
+
+        .sidebar-right {
+            float: none;
+            width: 100%;
+        }
+        
     }
 
     @media screen and (max-width: 700px) {
@@ -1330,6 +1333,12 @@ color: #b3cccc;
     }
 
     @media screen and (max-width: 600px) {
+        figure.alignleft, img.alignleft, figure.alignright, img.alignright{
+            float:none;
+            display: block;
+            margin: 0 auto;
+        }
+        
         #lead-banner h2 {
             width: 26%;
             top: -16vw;
@@ -1346,6 +1355,10 @@ color: #b3cccc;
         #how-to-help h3 {
             font-size: 2.0em;
         }
+        #wpadminbar{
+            position: fixed;
+        }
+        
     }
 
     @media screen and (max-width: 450px) {
