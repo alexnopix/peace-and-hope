@@ -880,6 +880,15 @@ color: #b3cccc;
     #map2 {
         display: none;
     }
+
+    .blue-pane a {
+        color: #ffcd31; 
+        font-size: 1.2rem;
+
+    }
+
+
+
     /*********  Mid Section (Map)  *********/
 
     #facets {
