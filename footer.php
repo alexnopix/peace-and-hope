@@ -18,9 +18,9 @@
         <div class="wrapper">
             <ul id="contact">
                 <li><i class="fa fa-phone fa-style" aria-hidden="true"></i>+44 (0)7517281394</li>
-                <li><i class="fa fa-envelope fa-style" aria-hidden="true"></i>admin@peaceandhope.org.uk</li>
-                <li><i class="fa fa-globe fa-style" aria-hidden="true"></i><a href="http://www.peaceandhope.org.uk">www.peaceandhope.org.uk</a></li>
-                <li><i class="fa fa-twitter fa-style" aria-hidden="true"></i>@peaceandhope.org.uk</li>
+                <li><a href="mailto:admin@peaceandhope.org.uk"><i class="fa fa-envelope fa-style" aria-hidden="true"></i>admin@peaceandhope.org.uk</a></li>
+                <li><a href="https://www.facebook.com/groups/186536498351523/"><i class="fa fa-facebook-square fa-style" aria-hidden="true"></i>Follow us on Facebook</a></li>
+                <li><a href="https://twitter.com/peaceandhopeuk"><i class="fa fa-twitter fa-style" aria-hidden="true"></i>@peaceandhope.org.uk</a></li>
             </ul>
             <div id="address">
                 <p>Little Llanafon Farm,<br> Dorston,<br> Herefordshire<br>HR3 6AT</p>
@@ -31,6 +31,9 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Wordpress Theme: %1$s by %2$s.', 'peace-and-hope' ), 'Peace and Hope', 'Galloway Web Design' );
 			?>
+        </div>
+        <div id="footer-menu" class="clear">
+            <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
         </div>
         <!-- .site-info -->
     </footer>

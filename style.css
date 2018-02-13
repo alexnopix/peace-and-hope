@@ -790,13 +790,6 @@ color: #b3cccc;
         text-indent: -9999px;
     }
 
-    nav span {
-        color: #ffcd31;
-        margin-left: 20px;
-        font-size: 26px;
-        font-weight: bolder;
-    }
-
     #lead-banner {
         display: block;
         height: auto;
@@ -876,7 +869,6 @@ color: #b3cccc;
     }
 
     .blue-pane p {
-        padding: 10px;
         font-size: 1.6em;
     }
 
@@ -961,12 +953,6 @@ color: #b3cccc;
     }
 
 /*********  How to help  *********/
-
-
-
-    #how-to-help , #how-to-help h3 {
-        padding: 10px;
-    }
 
     #how-to-help h3 {
         font-size: 2.4em;
@@ -1170,6 +1156,30 @@ color: #b3cccc;
     font-size: 1.2rem;
 }
 
+#footer-menu {
+    border-top: 2px solid #004fa2;
+    margin-top: 20px;
+}
+
+.menu-footer-menu-container {
+    margin: 20px 0;
+}
+
+#footer-menu li{
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+#footer-menu li:first-of-type{
+    margin-left: 0;
+}
+
+#footer-menu a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 
     /*  Media Queries  */
 
@@ -1246,6 +1256,14 @@ color: #b3cccc;
         #qr-code {
             display: none;
         }
+        
+        figure.alignleft, img.alignleft, figure.alignright, img.alignright {
+            float:none;
+            display: block;
+            margin: 0 auto;
+        }
+        
+
     }
 
     @media screen and (max-width: 700px) {
