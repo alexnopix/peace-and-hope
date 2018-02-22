@@ -846,6 +846,18 @@ color: #b3cccc;
     #intro-panel p {
         font-size: 1.8em;
     }
+
+    #intro-panel a {
+        font-size: 1em;
+        text-decoration: none;
+    }
+
+    #intro-panel a:hover {
+        text-decoration: underline;
+    }
+
+
+
     /*********  Blue Pane  *********/
 
     .blue-pane {
@@ -973,7 +985,8 @@ color: #b3cccc;
         font-weight: bold;
     }
 
-    #how-to-help a{
+    #how-to-help a {
+        font-size: 1.6rem;
         color: #ffcd31;
         text-decoration: none;
         
@@ -1354,6 +1367,9 @@ color: #b3cccc;
         
         #how-to-help h3 {
             font-size: 2.0em;
+        }
+        #how-to-help a{
+        font-size: 1.4rem;
         }
         #wpadminbar{
             position: fixed;

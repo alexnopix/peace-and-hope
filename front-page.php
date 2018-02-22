@@ -31,7 +31,7 @@ get_header(); ?>
                         <h2>The Peace and Hope Trust</h2>
                     </div>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="map" id="map1">
-                    <p>We are a UK based charity with a Christian ethos. We have been working amongst poor and marginalised communities in Nicaragua since 1996.</p>
+                    <p>We are a UK based charity with a Christian ethos. We have been working amongst poor and marginalised communities in Nicaragua since we were founded by <a href="http://peaceandhope.gallowayweb.design/our-founder/">Mike Cole</a> in 1996.</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="map" id="map2">
                     <p>Since then, many volunteers have caught the same vision to help a country that is regularly affected by natural disasters, hurricanes, earthquakes, volcanic eruptions, floods and landslides and remains one of the neediest in the world.</p>
                 </div>
@@ -42,7 +42,7 @@ get_header(); ?>
                     <div class="facets-row">
                         <div class="left-pane">
                             <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/humanitarian-header.png" alt="humanitarian aid"></a>
-                            <p>Our global recycling program collects surplus equipment and ships it to Nicaragua several times a year, where it is greatly valued. Priorities are medical equipment and supplies for hospitals and clinics, school furniture and vocational equipment. <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/">Read more...</a></p>
+                            <p>Our recycling program collects surplus equipment and ships it to Nicaragua several times a year, where it is greatly valued. Priorities are medical equipment and supplies for hospitals and clinics, school furniture and vocational equipment. <a href="http://peaceandhope.gallowayweb.design/humanitarian-aid/">Read more...</a></p>
                             <div class="iframe-wrapper">
                                 <iframe class="facets-vid" src="https://player.vimeo.com/video/246787192?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
