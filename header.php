@@ -24,7 +24,7 @@
         </script>
         <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js" async></script>
         <title>The Peace and Hope Trust</title>
-        <link rel="stylesheet" href="styles.css" type="text/css">
+
         <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
 
         <!-- Dynamic styles -->

@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'peace_and_hope_widgets_init' );
  * Enqueue scripts and styles.
  */
 function peace_and_hope_scripts() {
-	wp_enqueue_style( 'peace-and-hope-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'peace-and-hope-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

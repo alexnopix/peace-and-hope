@@ -718,9 +718,10 @@ background: url(images/logo100px.png) no-repeat;
     }
 
     #site-navigation {
-        float: right;
-        margin-top: 32px;
-        margin-right: 3%;
+        position: absolute;
+        top: 50%;
+        right: 3%;
+        transform: translate(0%, -50%)
     }
     /*
 #topnav a, #burger-nav {
@@ -1224,7 +1225,7 @@ color: #b3cccc;
     @media screen and (max-width: 1100px) {
         #intro-panel p {
             font-size: 1.7em;
-        }
+        }      
     }
 
     @media screen and (max-width: 1000px) {
@@ -1252,6 +1253,13 @@ color: #b3cccc;
         }
         .facets-row {
             clear: both;
+        }
+        #logo {
+            height: 10vw;
+            width: 10vw;
+        }
+        .clear-header {
+            margin-top: calc(10vw + 15px);
         }
     }
 
@@ -1374,6 +1382,13 @@ color: #b3cccc;
         }
         #wpadminbar{
             position: fixed;
+        }
+        #logo {
+            height: 55px;
+            width: 55px;
+        }
+        .clear-header {
+            margin-top: 70px;
         }
         
     }
