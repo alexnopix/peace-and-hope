@@ -33,7 +33,7 @@ get_header(); ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="map" id="map1">
                     <p>We are a UK based charity with a Christian ethos. We have been working amongst poor and marginalised communities in Nicaragua since we were founded by <a href="http://peaceandhope.gallowayweb.design/our-founder/">Mike Cole</a> in 1996.</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="map" id="map2">
-                    <p>Since then, many volunteers have caught the same vision to help a country that is regularly affected by natural disasters, hurricanes, earthquakes, volcanic eruptions, floods and landslides and remains one of the neediest in the world.</p>
+                    <p>Since then, many volunteers have caught the same vision to help a country that is regularly affected by natural disasters, hurricanes, earthquakes, volcanic eruptions, floods and landslides and remains one of the neediest in the Western Hemisphere.</p>
                 </div>
             </section>
             <section id="facets" class="clear">
@@ -49,7 +49,7 @@ get_header(); ?>
                         </div>
                         <div class="right-pane">
                             <a href="http://peaceandhope.gallowayweb.design/community-building/"><img class="facets-header" src="<?php echo get_template_directory_uri(); ?>/images/community-header.png" alt="community building"></a>
-                            <p>We support vocational centres and community projects. Volunteers share their love and their talents by working with local churches, woman’s and children’s groups to teach vocational skills or help with feeding programmes. <a href="http://peaceandhope.gallowayweb.design/community-building/">Read more...</a></p>
+                            <p>We support vocational centres and community projects. Volunteers share their love and their talents by working with local churches, women’s and children’s groups to teach vocational skills or help with feeding programmes. <a href="http://peaceandhope.gallowayweb.design/community-building/">Read more...</a></p>
                             <div class="iframe-wrapper">
                                 <iframe class="facets-vid" src="https://player.vimeo.com/video/246787084?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>

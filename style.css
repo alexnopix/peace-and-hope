@@ -713,6 +713,7 @@ background: url(images/logo100px.png) no-repeat;
         display: block;
         height: 100px;
         width: 100px;
+        background-size: 100% 100%;
         text-indent: -9999px;
     }
 

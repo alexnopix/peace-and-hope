@@ -23,7 +23,7 @@
                 <li><a href="https://twitter.com/peaceandhopeuk"><i class="fa fa-twitter fa-style" aria-hidden="true"></i>@peaceandhope.org.uk</a></li>
             </ul>
             <div id="address">
-                <p>Little Llanafon Farm,<br> Dorston,<br> Herefordshire<br>HR3 6AT</p>
+                <p>Little Llanafon Farm,<br> Dorstone,<br> Herefordshire<br>HR3 6AT</p>
             </div>
             <h2 id="thank-you">Thank you for your support!</h2>
 
