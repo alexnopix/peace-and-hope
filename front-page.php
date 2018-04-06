@@ -74,6 +74,18 @@ get_header(); ?>
                     </div>
                 </div>
             </section>
+            <section id="faith-in-action" class="blue-pane">
+                <div class="wrapper clear">
+                    <div class="banner yellow-banner">
+                        <h2>Faith In Action</h2>
+                    </div>
+                    <p><strong>"Faith without works is dead"</strong> - These gospel words of James underline our calling to reach those not served by others in Nicaragua, and to demonstrate God's love in action.</p>
+                    <p>Volunteers for the Trust's construction projects in Nicaragua are drawn mainly, though not exclusively, from our key support base of church communities around the UK, particularly in Gloucestershire, Guernsey and the North East of England.</p>
+                    <p>We form natural partnerships with local churches in Nicaragua. This allows us to enjoy great fellowship and worship with our Nicaraguan friends, and also helps with logistical arrangements.</p>
+                    <p>We receive many requests for help, and working in co-operation with local authorities, we prioritise building and other projects only on the basis of need, feasibility and sustainability.</p>
+                    <p>We are stewards of the money that supporters donate, and all projects must demonstrate a tangible benefit to the community, and good value for money.</p>
+                </div>
+            </section>
             <section id="how-to-help" class="blue-pane">
                 <div class="wrapper clear">
                     <div class="banner yellow-banner">
