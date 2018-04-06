@@ -882,6 +882,10 @@ color: #b3cccc;
         color: #004fa2;
     }
 
+    .blue-pane h3 {
+        color: #ffcd31;
+    }
+
     .blue-pane p {
         font-size: 1.6em;
     }
@@ -900,6 +904,12 @@ color: #b3cccc;
         font-size: 1.2rem;
 
     }
+
+    #events p {
+        font-size: 1.3em;
+    }
+
+
 
 
 
@@ -977,9 +987,8 @@ color: #b3cccc;
 
 /*********  How to help  *********/
 
-    #how-to-help h3 {
+    #primary h3 {
         font-size: 2.4rem;
-        color: #ffcd31;
     }
 
     #how-to-help .sect-intro strong {
@@ -1400,7 +1409,7 @@ color: #b3cccc;
         #intro-panel p {
             font-size: 1.3em;
         }
-        #how-to-help h3 {
+        #primary h3 {
             font-size: 1.8em;
         }
     }

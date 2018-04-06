@@ -35,6 +35,14 @@ get_header(); ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="map" id="map2">
                     <p>Since then, many volunteers have caught the same vision to help a country that is regularly affected by natural disasters, hurricanes, earthquakes, volcanic eruptions, floods and landslides and remains one of the neediest in the Western Hemisphere.</p>
                 </div>
+                <div id="events" class="wrapper">
+                <h3>Upcoming Events</h3>
+                <p><strong>17th April 2018</strong> - Our team leaves for Nicaragua to build a school.</p>
+                <p><strong>9th June 2018</strong> - Open Garden event, 11:00am – 5:00pm. The <a href="http://thruxtonrectory.co.uk/visitor-information">The Old Rectory</a>, Thruxton near Hereford. HR2 9RX.  Off B4348 between Vowchurch and A465.</p>
+                <p><strong>10th July 2018</strong> - Summer team departure for 2 or 3 weeks.   Applications by the 1st of June please.</p>
+                <p><strong>6th October 2018</strong> - Ladies Fashion Show, Gorsley Baptist Church. Tickets available from  <a href="mailto:admin@peaceandhope.org.uk">admin@peaceandhope.org.uk</a>.</p>
+                <p><strong>13th October 2018 (Provisional)</strong> - Autumn Gathering.</p>
+                 </div>
             </section>
             <section id="facets" class="clear">
                 <div class="wrapper">
